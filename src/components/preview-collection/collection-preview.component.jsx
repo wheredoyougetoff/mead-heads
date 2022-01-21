@@ -1,6 +1,8 @@
 import React from "react";
 import "./collection-preview.styles.scss";
 import CollectionItem from "../collection-item/collection-item.component";
+//import { connect } from "react-redux;";
+//import { selectCollection } from "../../redux/shop/shop.selectors";
 
 const CollectionPreview = ({ title, items }) => (
   <div className="collection-preview">
